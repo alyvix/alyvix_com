@@ -1,6 +1,7 @@
 <?php
 namespace Grav\Plugin;
 
+use Grav\Common\Data\Data;
 use Grav\Common\Plugin;
 use Grav\Plugin\Email\Email;
 use RocketTheme\Toolbox\Event\Event;
@@ -22,6 +23,7 @@ class EmailPlugin extends Plugin
             'onFormProcessed'           => ['onFormProcessed', 0],
             'onTwigTemplatePaths'       => ['onTwigTemplatePaths', 0],
             'onSchedulerInitialized'    => ['onSchedulerInitialized', 0],
+            'onAdminSave'               => ['onAdminSave', 0],
         ];
     }
 
@@ -49,6 +51,28 @@ class EmailPlugin extends Plugin
     }
 
     /**
+     * Force compile during save if admin plugin save
+     *
+     * @param Event $event
+     */
+    public function onAdminSave(Event $event)
+    {
+        /** @var Data $obj */
+        $obj = $event['object'];
+
+
+
+        if ($obj instanceof Data && $obj->blueprints()->getFilename() === 'email/blueprints') {
+            $current_pw = $this->grav['config']->get('plugins.email.mailer.smtp.password');
+            $new_pw = $obj->get('mailer.smtp.password');
+            if (!empty($current_pw) && empty($new_pw)) {
+                $obj->set('mailer.smtp.password', $current_pw);
+            }
+
+        }
+    }
+
+    /**
      * Send email when processing the form data.
      *
      * @param Event $event
@@ -67,7 +91,8 @@ class EmailPlugin extends Plugin
             case 'email':
                 // Prepare Twig variables
                 $vars = array(
-                    'form' => $form
+                    'form' => $form,
+                    'page' => $this->grav['page']
                 );
 
                 // Copy files now, we need those.
@@ -135,8 +160,14 @@ class EmailPlugin extends Plugin
             }
         }
 
+        //fire event to apply optional signers
+        $this->grav->fireEvent('onEmailMessage', new Event(['message' => $message, 'params' => $params, 'form' => $form]));
+
         // Send e-mail
         $this->email->send($message);
+
+        //fire event after eMail was sent
+        $this->grav->fireEvent('onEmailSent', new Event(['message' => $message, 'params' => $params, 'form' => $form]));
     }
 
     protected function isAssocArray(array $arr)

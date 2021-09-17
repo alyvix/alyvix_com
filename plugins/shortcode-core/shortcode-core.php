@@ -25,6 +25,10 @@ class ShortcodeCorePlugin extends Plugin
             'onPluginsInitialized' => [
                 ['autoload', 100001],
                 ['onPluginsInitialized', 10]
+            ],
+            'registerNextGenEditorPlugin' => [
+                ['registerNextGenEditorPlugin', 0],
+                ['registerNextGenEditorPluginShortcodes', 0],
             ]
         ];
     }
@@ -109,6 +113,7 @@ class ShortcodeCorePlugin extends Plugin
      */
     protected function processShortcodes(PageInterface $page, $type = 'processContent') {
         $meta = [];
+        $this->shortcodes->resetObjects(); // clear shortcodes that may have been processed in this execution thread before
         $config = $this->mergeConfig($page);
 
         // Don't run in admin pages other than content
@@ -208,7 +213,10 @@ class ShortcodeCorePlugin extends Plugin
      */
     public function onShortcodeHandlers()
     {
-        $this->shortcodes->registerAllShortcodes(__DIR__ . '/classes/shortcodes', ['ignore' => ['Shortcode', 'ShortcodeObject']]);
+        $include_default_shortcodes = $this->config->get('plugins.shortcode-core.include_default_shortcodes', true);
+        if ($include_default_shortcodes) {
+            $this->shortcodes->registerAllShortcodes(__DIR__ . '/classes/shortcodes', ['ignore' => ['Shortcode', 'ShortcodeObject']]);
+        }
 
         // Add custom shortcodes directory if provided
         $custom_shortcodes = $this->config->get('plugins.shortcode-core.custom_shortcodes');
@@ -225,4 +233,51 @@ class ShortcodeCorePlugin extends Plugin
         $this->grav['twig']->twig()->addFilter(new \Twig_SimpleFilter('shortcodes', [$this->shortcodes, 'processShortcodes']));
         $this->grav['twig']->twig_vars['shortcode'] = new ShortcodeTwigVar();
     }
+
+    public function registerNextGenEditorPlugin($event) {
+        $config = $this->config->get('plugins.shortcode-core.nextgen-editor');
+        $plugins = $event['plugins'];
+
+        if ($config['env'] !== 'development') {
+            $plugins['css'][] = 'plugin://shortcode-core/nextgen-editor/dist/css/app.css';
+            $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/dist/js/app.js';
+        } else {
+            $plugins['js'][]  = 'http://' . $config['dev_host'] . ':' . $config['dev_port'] . '/js/app.js';
+        }
+
+        $event['plugins']  = $plugins;
+        return $event;
+    }
+
+    public function registerNextGenEditorPluginShortcodes($event) {
+        $plugins = $event['plugins'];
+
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/shortcode-core.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/align/align.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/color/color.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/columns/columns.js';
+        $plugins['css'][] = 'plugin://shortcode-core/nextgen-editor/shortcodes/details/details.css';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/details/details.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/div/div.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/figure/figure.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/fontawesome/fontawesome.js';
+        $plugins['css'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/headers/headers.css';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/headers/headers.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/language/language.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/lorem/lorem.js';
+        $plugins['css'][] = 'plugin://shortcode-core/nextgen-editor/shortcodes/mark/mark.css';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/mark/mark.js';
+        $plugins['css'][] = 'plugin://shortcode-core/nextgen-editor/shortcodes/notice/notice.css';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/notice/notice.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/raw/raw.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/safe-email/safe-email.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/section/section.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/size/size.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/span/span.js';
+        $plugins['js'][]  = 'plugin://shortcode-core/nextgen-editor/shortcodes/u/u.js';
+
+        $event['plugins']  = $plugins;
+        return $event;
+    }
+
 }

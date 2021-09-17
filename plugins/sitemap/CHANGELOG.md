@@ -1,3 +1,54 @@
+# v3.0.1
+## 02/23/2021
+
+1. [](#new)
+  * Added ability to disable multi-lang completely to replicate prior functionality [#96](https://github.com/getgrav/grav-plugin-sitemap/pull/96)
+  * Added support for new optional `html_support` option that allows you to render the sitemap as an HTML page in your site when you access the sitemap URL with no extension or `.html`. Can be customized and extended in your theme as needed.
+
+# v3.0.0
+## 01/30/2021
+
+1. [](#new)
+    * Added complete multi-language support utilizing [Google Search recommended SEO best-practices](https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=en&visit_id=637468720624267418-280936473&rd=2) for bi-directional linking to translated pages.
+    * Added support fo `x-default` hreflang entries.
+    * Added support for new `sitemap.json` custom format that is useful for other plugins to understand the multi-language structure of the site
+    * Added support for sitemap images per [Google guidelines](https://developers.google.com/search/docs/advanced/sitemaps/image-sitemaps) [#81](https://github.com/getgrav/grav-plugin-sitemap/pull/81)
+
+# v2.0.2
+## 12/02/2020
+
+1. [](#improved)
+    * Improved readme/blueprints with regex information [#78](https://github.com/getgrav/grav-plugin-sitemap/pull/78)
+
+# v2.0.1
+## 07/01/2020
+
+1. [](#bugfix)
+    * Fixed a case issue with `SitemapEntry` PHP class
+
+# v2.0.0
+## 07/01/2020
+
+1. [](#new)
+    * Added a new `Ignore External URLs` option that defaults to `true`
+    * Added a new `Ignore Protected Pages` option that defaults to `true` [#62](https://github.com/getgrav/grav-plugin-sitemap/issues/62)
+    * Added a new `onSitemapProcessed()` event to allow for dynamic manipulation of the sitemap
+1. [](#improved)
+    * Improved `SitemapEntry` to allow setting via constructor
+    * Added `changefreq` and `priority` to manually and dynamically added entries
+    * Use composer for autoloading
+1. [](#bugfix)
+    * Force a fallback to `en` to ensure you can't get `null/false` language [#74](https://github.com/getgrav/grav-plugin-sitemap/issues/74)   
+    
+# v1.9.5
+## 04/27/2020
+
+1. [](#improved)
+    * Add admin toggle for `ignore` [#68](https://github.com/getgrav/grav-plugin-sitemap/pull/68)
+    * Omit empty `<lastmod>` [#70](https://github.com/getgrav/grav-plugin-sitemap/pull/70)
+    * Added Chinese language [#73](https://github.com/getgrav/grav-plugin-sitemap/pull/73)
+    * Added German language [#66](https://github.com/getgrav/grav-plugin-sitemap/pull/66)
+
 # v1.9.4
 ## 10/19/2019
 

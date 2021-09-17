@@ -6,7 +6,7 @@ author:
   email: 'info@alyvix.com'
 
 metadata:
-    description: 'Alyvix: eyes and hands like a human, with a stopwatch.'
+    description: 'Alyvix: Eyes and hands like a human, with a stopwatch.'
 
 redirects:
     '/alyvix' : '/'

@@ -1,3 +1,22 @@
+# v1.3.5
+## 12/02/2020
+
+1. [](#new)
+    * Requires **Grav 1.6**
+    * Pass phpstan level 8 tests
+1. [](#bugfix)
+    * Exclude empty folders from taxonomy
+
+# v1.3.4
+## 08/03/2020
+
+1. [](#bugfix)
+    * Reinstated caching that was broken from previous PR [#23](https://github.com/getgrav/grav-plugin-taxonomylist/issues/23)
+    * Fixed wrong URL for blog site skeleton [#33](https://github.com/getgrav/grav-plugin-taxonomylist/pull/33)
+    * Resolved `children_only option` showing unpublished pages [#27](https://github.com/getgrav/grav-plugin-taxonomylist/pull/27)
+    * Fixed escape character issue in validate pattern
+
+
 # v1.3.3
 ## 08/21/2018
 

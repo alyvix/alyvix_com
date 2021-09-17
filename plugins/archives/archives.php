@@ -7,12 +7,23 @@ use Grav\Common\Page\Pages;
 use Grav\Common\Plugin;
 use Grav\Common\Page\Collection;
 use Grav\Common\Taxonomy;
+use Grav\Common\Uri;
 use Grav\Common\Utils;
 use Grav\Common\Yaml;
 use RocketTheme\Toolbox\Event\Event;
 
 class ArchivesPlugin extends Plugin
 {
+    /**
+     * @var string
+     */
+    protected $month_taxonomy_value;
+
+    /**
+     * @var string
+     */
+    protected $year_taxonomy_value;
+
     /**
      * @var string
      */
@@ -56,6 +67,9 @@ class ArchivesPlugin extends Plugin
             return;
         }
 
+        $this->month_taxonomy_value = $this->config->get('plugins.archives.taxonomy_values.month');
+        $this->year_taxonomy_value = $this->config->get('plugins.archives.taxonomy_values.year');
+
         $this->month_taxonomy_name = $this->config->get('plugins.archives.taxonomy_names.month');
         $this->year_taxonomy_name = $this->config->get('plugins.archives.taxonomy_names.year');
 
@@ -93,14 +107,14 @@ class ArchivesPlugin extends Plugin
 
         $taxonomy = $page->taxonomy();
 
-        // track month taxonomy in "jan_2015" format:
+        // track month taxonomy using month_taxonomy_value format:
         if (!isset($taxonomy[$this->month_taxonomy_name])) {
-            $taxonomy[$this->month_taxonomy_name] = array(strtolower(date('M_Y', $page->date())));
+            $taxonomy[$this->month_taxonomy_name] = array(strtolower(date($this->month_taxonomy_value, $page->date())));
         }
 
-        // track year taxonomy in "2015" format:
+        // track year taxonomy using year_taxonomy_value format:
         if (!isset($taxonomy[$this->year_taxonomy_name])) {
-            $taxonomy[$this->year_taxonomy_name] = array(date('Y', $page->date()));
+            $taxonomy[$this->year_taxonomy_name] = array(date($this->year_taxonomy_value, $page->date()));
         }
 
         // set the modified taxonomy back on the page object
@@ -127,7 +141,7 @@ class ArchivesPlugin extends Plugin
         if ($page && is_array($page_specific_config)) {
             foreach ($page_specific_config as $page_config) {
                 // Does the page config match route of this current page
-                if (isset($page_config['route']) && Utils::startsWith($page->route(), $page_config['route'], false)) {
+                if (isset($page_config['route']) && $this->isValidPageRoute($page, $page_config['route'])) {
                     $filters = $page_config['filters'] ?? (array) $this->config->get('plugins.archives.filters');
 
                     // get around limitation of no YAML filtering support in list field
@@ -157,6 +171,22 @@ class ArchivesPlugin extends Plugin
         $this->grav['twig']->twig_vars['archives_show_count'] = $this->config->get('plugins.archives.show_count');
         $this->grav['twig']->twig_vars['archives_data'] = $archives;
         $this->grav['twig']->twig_vars['archives_url'] = $archives_url;
+    }
+
+    /** Something like this should be in Page object in future */
+    protected function isValidPageRoute(PageInterface $page, $route)
+    {
+        $uri = $this->grav['uri'];
+        $page_routes = [$page->route(), $page->rawRoute()];
+        $page_routes[] = str_replace($page->canonical(false), $uri->rootUrl(true), '');
+        $page_routes = array_merge($page_routes, $page->routeAliases());
+
+        foreach ($page_routes as $proute) {
+            if (Utils::startsWith($proute, $route, false)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     protected function getArchives($filters, $operator, $order)

@@ -1,6 +1,6 @@
 absolute_urls: false
 timezone: 'Europe/Rome'
-force_ssl: true
+force_ssl: false
 
 languages:
   supported: [en]
