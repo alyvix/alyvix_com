@@ -122,4 +122,4 @@ The beauty of visual monitoring is that it sees exactly what a regular user sees
 
 **Charles:** Thanks Gabriele for giving us an insider's view and some advice on how you build Alyvix test cases.
 
-<iframe width="288" height="162" src="https://www.youtube.com/embed/d51Sb2EHkoE ?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="288" height="162" src="https://www.youtube.com/embed/d51Sb2EHkoE?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
