@@ -1,10 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Charles
+menu: Luca
 image_align: right
 ---
 
-## **Charles** Callaway
-*Technical Writer*
+## **Luca** Franzoi
+*Support Specialist*
 
-<a href="https://it.linkedin.com/in/charles-callaway-248a18181" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://it.linkedin.com/in/luca-franzoi-593164114" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
