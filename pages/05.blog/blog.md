@@ -2,7 +2,7 @@
 title: Blog
 sitemap:
     changefreq: monthly
-body_classes: title-h1h2 header-dark header-transparent
+body_classes: title-h1h2 header-dark overlay-dark-gradient header-transparent
 hero_classes: parallax text-light
 hero_image: alyvix_blog.jpg
 custom: 'new thing'
