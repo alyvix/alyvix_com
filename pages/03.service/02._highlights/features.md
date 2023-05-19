@@ -31,5 +31,5 @@ features:
 **Report end-user experiences** by retrieving the test case measurements and screenshots, as well as looking directly at their summary reports.
 
 [owl-carousel items=1 video=true]
-<iframe width="288" height="162" src="https://www.youtube.com/embed/L_jEDSyKvGo?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="288" height="162" src="https://www.youtube.com/embed/aTyxldL7pN4?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 [/owl-carousel]
