@@ -11,7 +11,7 @@ hero_classes: text-dark overlay-light parallax
 # Scale Up Visual Monitoring
 ## Clever Business
 
-Alyvix Server is an **APM software tool** for scaling up visual monitoring.
+Alyvix Service is an **APM software tool** for scaling up visual monitoring.
 
-[**Get Started** with **Alyvix Server 1.7.3**](../?classes=btn,btn-success,btn-lg#plans)
-[**Latest Features**](https://alyvix.com/learn/server/release_notes/release_notes_17.html?classes=btn,btn-primary,btn-lg&target=_blank)
+[**Get Started** with **Alyvix Service 2.1.0**](../?classes=btn,btn-success,btn-lg#plans)
+[**Latest Features**](https://alyvix.com/learn/service/release_notes/release_notes_21.html?classes=btn,btn-primary,btn-lg&target=_blank)

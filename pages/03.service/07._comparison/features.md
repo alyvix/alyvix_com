@@ -15,7 +15,7 @@ menu: Plans
             <th>Enterprise Plus</a></th>
         </tr>
         <tr style="background-color:#f8f9fa;">
-            <th style="text-align:right;white-space:nowrap;">Alyvix Server<sup>1</sup></th>
+            <th style="text-align:right;white-space:nowrap;">Alyvix Service<sup>1</sup></th>
             <td><b>1 instance</b></td>
             <td><b>5 instances</b></td>
             <td><b>8 instances</b></td>
@@ -94,9 +94,9 @@ menu: Plans
     </table>
 </div><br>
 
-<font size="1">1. Alyvix Server is a Windows service installed on a Windows 64-bit OS where English is the recommended language. <i>Microsoft licences are not included in the subscription.</i></font><br>
+<font size="1">1. Alyvix Service is a Windows service installed on a Windows 64-bit OS where English is the recommended language. <i>Microsoft licences are not included in the subscription.</i></font><br>
 
-<font size="1">2. Windows Terminal Server is required when managing more than 1 Windows session with Alyvix Server. <i>Microsoft licences are not included in the subscription.</i></font>
+<font size="1">2. Windows Terminal Server is required when managing more than 1 Windows session with Alyvix Service. <i>Microsoft licences are not included in the subscription.</i></font>
 
 <!--
         <tr>

@@ -13,6 +13,12 @@ menu: Events
 ![bla4](alyvix_event_sfscon.png)
 [/owl-carousel]
 
+
+<span>19. </span><b><a href="https://www.wuerth-phoenix.com/neteye-insights/neteye-user-group-it-2022">Würth Phoenix User Group</a> 2022</b> <br class="small_screen">November 9, Verona, Italy<br>
+<span>18. </span><b><a href="https://www.wuerth-phoenix.com/en/neteye-insights/neteye-user-group-it-2021/page">Würth Phoenix User Group</a> Virtual, 2021</b><br>
+<span>17. </span><b><a href="https://www.wuerth-phoenix.com/en/support/neteye-user-group/page">Würth Phoenix User Group</a> Virtual, 2020</b><br>
+<span>16. </span><b><a href="https://www.wuerth-phoenix.com/fileadmin/user_upload/downloads/2019_NetEye_UserGroup.pdf">Würth Phoenix User Group</a> Italy 2019</b> <br class="small_screen">November, Museo Ferrari (MO), Italy<br>
+<span>15. </span><b><a href="https://www.wuerth-phoenix.com/it/lazienda/about-wuerth-phoenix/news/details/neteye-erizone-user-group-2019-germania">Würth Phoenix User Group</a> Dauphin Speed Event 2019</b> <br class="small_screen">April, Germany<br>
 <span>14. </span><b><a href="https://www.sfscon.it/">SFScon</a> 2019</b> <br class="small_screen">November 15, Bolzano, Italy<br>
 <span>13. </span><b><a href="https://icinga.com/events/">Icinga Camp</a> Milan 2019</b> <br class="small_screen">September 26, Milan, Italy<br>
 <span>12. </span><b><a href="https://icinga.com/events/">Icinga Camp</a> Berlin 2019</b> <br class="small_screen">March 14, Berlin, Germany<br>

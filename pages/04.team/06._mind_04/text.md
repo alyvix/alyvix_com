@@ -1,10 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Vigna
+menu: Charles
 image_align: right
 ---
 
-## **Jürgen** Vigna
-*Software Consultant*
+## **Charles** Callaway
+*Communications and Documentation*
 
-<a href="https://it.linkedin.com/in/j%C3%BCrgen-vigna-54023252" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://it.linkedin.com/in/charles-callaway-248a18181" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>

@@ -1,10 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Charles
+menu: Patrick
 image_align: right
 ---
 
-## **Charles** Callaway
-*Technical Writer*
+## **Patrick** Zambelli
+*Software Consultant*
 
-<a href="https://it.linkedin.com/in/charles-callaway-248a18181" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://it.linkedin.com/in/patrick-zambelli-b7127915" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>

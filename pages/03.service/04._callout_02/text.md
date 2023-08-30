@@ -1,11 +1,11 @@
 ---
-title: Alyvix Server Step 2
+title: Alyvix Service Step 2
 menu: WebAPIs
 image_align: left
 ---
 
-## **Measurement** Web APIs
+## Schedule your **Bots**
 
-Alyvix Server Web APIs provide access to both configurations and recorded measurements, such as the results of test case runs: retrieve data as a JSON structure directly from the database with a REST request-response.
+Tell Alyvix Service how often to run each group of test cases, and then enable and disable them whenever you need to.
 
-[Find out more](https://alyvix.com/learn/server/measurement_web_apis.html?classes=btn,btn-primary,btn-lg&target=_blank)
+[Find out more](https://alyvix.com/learn/service/?classes=btn,btn-primary,btn-lg&target=_blank)

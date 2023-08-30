@@ -1,10 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Luca
+menu: Mirko
 image_align: right
 ---
 
-## **Luca** Franzoi
-*Support Specialist*
+## **Mirko** Alessandrini
+*Software Consultant*
 
-<a href="https://it.linkedin.com/in/luca-franzoi-593164114" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://it.linkedin.com/in/mirko-alessandrini-09b88082" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
