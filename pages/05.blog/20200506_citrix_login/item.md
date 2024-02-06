@@ -23,6 +23,8 @@ This tutorial shows how to accomplish a very common task with production systems
 
 In general, any time you log in remotely you'll need to enter your credentials into the login and password fields in a web form or the opening screen of an application. Here we'll show you how to do that securely on a Windows server using Citrix Gateway, and then how to use Alyvix Robot to automatically decrypt those strings when it runs the test case.
 
+<iframe width="288" height="162" src="https://www.youtube.com/embed/KNfB_pVijX4?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Alyvix Cipher
 
@@ -130,5 +132,3 @@ When it's done, Robot displays the click-to-appearance [timing results](https://
 This tutorial showed you how to start up a browser given its path, create two encrypted keys to hide both our user name and our password, make Alyvix log in to a Citrix Gateway with those encrypted keys, and run the test case from the command line by using your private key (if you're scripting it, be sure to protect it with permissions or root access).
 
 The content in this tutorial, of course, serves as the first step in a longer test case that will actually do some work within the remote desktop. After you've done those additional steps, don't forget to make your test case log out from Citrix!
-
-<iframe width="288" height="162" src="https://www.youtube.com/embed/KNfB_pVijX4?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

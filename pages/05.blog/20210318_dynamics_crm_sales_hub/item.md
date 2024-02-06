@@ -20,7 +20,7 @@ How can Alyvix Server help you day to day? Alyvix Server helps you manage multip
 
 ## Introduction
 
-Suppose you've just finished [creating a test case](https://www.alyvix.com/blog/20210226_dynamics_crm) that will test your [Microsoft Dynamics 365 - CRM](https://dynamics.microsoft.com/en-us/crm/crm-system/) installation. You'd like to test it at regular intervals, and automatically, rather than by pressing a button yourself every few minutes, 24 hours a day.
+Suppose you've just finished [creating a test case](https://alyvix.com/blog/20210226_dynamics_crm) that will test your [Microsoft Dynamics 365 - CRM](https://dynamics.microsoft.com/en-us/crm/crm-system/) installation. You'd like to test it at regular intervals, and automatically, rather than by pressing a button yourself every few minutes, 24 hours a day.
 
 And once it's up and running, wouldn't it be great if you could easily see the results as time-based graphs and variable resolution, so you could see trends, see the effects of any changes you make to your hardware or configurations, and drill down to find the causes of specific problems?
 

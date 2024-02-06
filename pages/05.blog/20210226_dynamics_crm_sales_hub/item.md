@@ -39,7 +39,7 @@ At the same time, we can also tell Alyvix to start up a browser by giving it the
 
 Next we need a similar step, but for the password request panel instead. We have to tell Alyvix where to find the password text field, that it nees to click inside it, and then to type in the password.
 
-In this security-comprised world we of course need to encrypt our credentials to prevent them from being stolen by anyone who can view or copy the .alyvix file. Alyvix was built to easily handle encrypted user names and passwords by providing command-line [encryption and decryption tools](https://www.alyvix.com/blog/20200505_rdc_login). You can find out more on this subject by looking at [our videos](https://www.youtube.com/watch?v=sAmV1GVX-Y4) specifically about the subject of credentials encryption.
+In this security-comprised world we of course need to encrypt our credentials to prevent them from being stolen by anyone who can view or copy the .alyvix file. Alyvix was built to easily handle encrypted user names and passwords by providing command-line [encryption and decryption tools](https://alyvix.com/blog/20200505_rdc_login). You can find out more on this subject by looking at [our videos](https://www.youtube.com/watch?v=sAmV1GVX-Y4) specifically about the subject of credentials encryption.
 
 After receiving the user name and password, Microsoft's Dynamics 365 will ask us if we want to stay signed in. We don't, because then we couldn't measure how long it takes to sign in each time, which is one of the user-centric metrics we're interested in.
 
@@ -128,7 +128,7 @@ When the Alyvix Robot is launched from the command line and its run concludes, i
 
 The lines in the middle of the output correspond to the steps we asked Alyvix to measure by setting their *Measure* flags. You can find out more about the details of how steps are measured with our [Output Composition](https://www.youtube.com/watch?v=KS0oKjWCDUU) YouTube tutorial. Each line reports the time that step took as well as the precision interval for that measured time, and at the end of the run the total time for the test case is displayed.
 
-Alyvix provides additional output formats that can be used to send this data to monitoring applications. You can find the details on [supported formats](https://www.alyvix.com/learn/test_case_execution.html#what-alyvix-robot-returns) in the online Alyvix user guide.
+Alyvix provides additional output formats that can be used to send this data to monitoring applications. You can find the details on [supported formats](https://alyvix.com/learn/test_case_execution.html#what-alyvix-robot-returns) in the online Alyvix user guide.
 
 
 ### Conclusion

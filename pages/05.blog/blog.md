@@ -4,7 +4,7 @@ sitemap:
     changefreq: monthly
 body_classes: title-h1h2 header-dark header-transparent
 hero_classes: parallax text-light
-hero_image: alyvix_blog.jpg
+hero_image: header-bg.jpg
 custom: 'new thing'
 blog_url: /blog
 show_sidebar: true

@@ -28,6 +28,8 @@ This article will show you how to build an Alyvix test case that checks on a 2-f
 
 In particular, you'll see how to make Alyvix log in to [LinkedIn](https://www.linkedin.com) using a Time-based, One-time Password (TOTP). Armed with that knowledge, you'll then be able to use Alyvix to check the responsivity of your own authentication services just as you would for any other service. Check out the [video version](https://youtu.be/RdvamQAG3oI) of this tutorial to see specific steps and best practices when creating your Alyvix test case.
 
+<iframe width="288" height="162" src="https://www.youtube.com/embed/RdvamQAG3oI?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Prerequisites
 
@@ -202,5 +204,3 @@ We can then run Alyvix Robot with the private key, and the password will automat
 ### Conclusion
 
 Just like your other services, you need to monitor your multi-factor login procedure to ensure users always have problem-free access to the information and activities they need. We've just seen how Alyvix can check on a 2FA login process for LinkedIn. But the sky's the limit, you can modify this test case to suit your own circumstances.
-
-<iframe width="288" height="162" src="https://www.youtube.com/embed/RdvamQAG3oI?color=white&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

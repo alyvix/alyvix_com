@@ -37,7 +37,7 @@ You can pass one or more arguments using the **--args** parameter, adding quotat
 
 ### Launching AX from the RDC Desktop
 
-Assuming we've already logged in to a Windows Server via RDC, the first step in building our test case is to launch AX, so we need to show Alyvix Editor how to find the AX desktop shortcut on the screen and then double click on it to launch it. Don't forget, we need to maximize the AX window before we start using it, since the position of interface elements relative to the others affects how Alyvix is able to match them (we've already covered this topic [in a previous AX article](https://www.alyvix.com/blog/20200917_dynamics_ax)).
+Assuming we've already logged in to a Windows Server via RDC, the first step in building our test case is to launch AX, so we need to show Alyvix Editor how to find the AX desktop shortcut on the screen and then double click on it to launch it. Don't forget, we need to maximize the AX window before we start using it, since the position of interface elements relative to the others affects how Alyvix is able to match them (we've already covered this topic [in a previous AX article](https://alyvix.com/blog/20200917_dynamics_ax)).
 
 
 ### The Warehouse Management Task
@@ -76,7 +76,7 @@ Here we've entered a default key of *104*. If the command line contains a second
 
 ### Drilling Down, Checking, and Exiting
 
-The results of the filter are returned as a table, just smaller than before. Now Alyvix can pick one of the table rows and drill down into the details for that record. Because tables can be resized and their columns reordered or their widths changed, you should always use groups when interacting with them, as described [in our Microsoft Dynamics AX General Ledger article](https://www.alyvix.com/blog/20201021_dynamics_ax_ledger).
+The results of the filter are returned as a table, just smaller than before. Now Alyvix can pick one of the table rows and drill down into the details for that record. Because tables can be resized and their columns reordered or their widths changed, you should always use groups when interacting with them, as described [in our Microsoft Dynamics AX General Ledger article](https://alyvix.com/blog/20201021_dynamics_ax_ledger).
 
 We can continue to drill down to check that the actions work correctly and return the proper results. Our test case drills down with three steps, opening up two windows in the process. One of those windows we can close with the last test case object we created. But after opening up multiple windows, we're bound to leave at least one open, and closing them is exactly one of the things our Exit script is intended to do for us.
 
