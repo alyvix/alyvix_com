@@ -1,6 +1,7 @@
 absolute_urls: false
 timezone: 'Europe/Rome'
 force_ssl: false
+custom_base_url: 'https://alyvix.com'
 
 languages:
   supported: [en]
