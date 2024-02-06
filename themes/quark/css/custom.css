@@ -8,6 +8,20 @@ h2 {
     margin-top: 0; /* Space above callout titles */
 }
 
+.treemenu li a {
+    font-size: 1rem;
+    display: block;
+    margin-left: 1.2rem;
+    color: white!important;
+}
+.treemenu li a.active {
+    text-decoration: bold;
+    color: #A042FF!important;
+}
+.treemenu li a:hover {
+    color: #A042FF!important;
+}
+
 /* Fonts */
 code, kbd, pre, samp {
     font-family: "Inter Mono", "SF Mono", "Segoe UI Mono", Menlo, Courier, monospace;
