@@ -3,3 +3,132 @@
         display: none;
     }
 }
+
+h2 {
+    margin-top: 0; /* Space above callout titles */
+}
+
+/* Fonts */
+code, kbd, pre, samp {
+    font-family: "Inter Mono", "SF Mono", "Segoe UI Mono", Menlo, Courier, monospace;
+    font-size: 1em;
+}
+body {
+    background: #fff;
+    color: #50596c;
+    font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.8rem;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+    color: #3a414e;
+}
+html:lang(zh), html:lang(zh-Hans), .lang-zh, .lang-zh-hans {
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", "Arial", sans-serif;
+}
+html:lang(zh-Hant), .lang-zh-hant {
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", "Helvetica Neue", "Arial", sans-serif;
+}
+html:lang(ja), .lang-ja {
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, "Helvetica Neue", "Arial", sans-serif;
+}
+
+html:lang(ko), .lang-ko {
+    font-family: "Inter", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", "Helvetica Neue", "Arial", sans-serif;
+}
+
+/* Labels */
+.label.label-primary {
+  color: #fff;
+  background: #A042FF;
+}
+.label.label-secondary {
+    color: #A042FF;
+    background: #E6CDFF;
+}
+
+/* Menus */
+div.mobile-menu div.button_container span {
+    background: #888;
+}
+.dropmenu ul li a:hover, .dropmenu ul li a:focus, .dropmenu ul li a.active {
+    color: #A042FF!important;
+}
+
+/* Links */
+a, a:visited {
+    color: #A042FF;
+}
+a:hover {
+    color: #8123DF;
+}
+
+/* Big Icons */
+.modular-features .column .feature-icon i {
+    color: #ECECEC;  /* Big icons when normal */
+}
+.modular-features .column:hover .feature-icon i {
+    color: #E8D1FF;  /* Big icons when hovered */
+}
+.modular-features .column .feature-icon h6 {
+    color: #DCB9FF;   /* Words overwriting big icons when normal ;  words below small icons normal */
+}
+.modular-features .column:hover .feature-icon h6 {
+    color: #A042FF;   /* Words overwriting big icons when hovered;  words below small icons when hovered */
+}
+.modular-features .column .feature-content {
+    color: #BBB;   /* Words below big icons normal */
+}
+.modular-features .column:hover .feature-content p {
+    color: #444;   /* Words below big icons when hovered */
+}
+
+/* Little Icons */
+.modular-features.small .column .feature-icon i {
+    color: #D8D8D8;  /* The icon itself normal */
+}
+.modular-features.small .column:hover .feature-icon i {
+    color: #A042FF;  /* The icon itself when hovered */
+}
+.modular-features.small .column .feature-icon h6 {
+    color: #BBB;   /* Words over big icons normal */
+}
+.modular-features.small .column:hover .feature-icon h6 {
+    color: #444;   /* Words over big icons when hovered */
+}
+
+/* Buttons */
+.button, .button:visited, .btn, .btn:visited {
+    color: #FFF;
+    background: #A042FF;
+    border: 0.05rem solid #A042FF;   
+    border-radius: 4px;
+}
+.button:hover, .button:focus, .btn:hover, .btn:focus {
+    color: #FFF;
+    background: #8123DF;
+    border: 0.05rem solid #8123DF;
+    border-radius: 4px;
+}
+.btn.btn-success, .btn.btn-success:visited,
+.btn.btn-primary, .btn.btn-primary:visited {
+    color: #FFF;
+    background: #A042FF!important;
+    border: 0.05rem solid #A042FF;
+    border-radius: 4px;
+}
+.btn.btn-success:hover, .btn.btn-success:focus,
+.btn.btn-primary:hover, .btn.btn-primary:focus {
+    color: #FFF;
+    background: #8123DF!important;
+    border: 0.05rem solid #8123DF;
+    border-radius: 4px;
+}
+
+/* Other */
+.search-input:focus {
+    border-color: #8123DF;
+}

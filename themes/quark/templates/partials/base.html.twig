@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% include 'partials/metadata.html.twig' %}
 
-    <link rel="icon" type="image/png" href="{{ url('theme://images/alyvix_icon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 {% endblock head %}
 
@@ -24,6 +24,9 @@
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/line-awesome.min.css') %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap"  rel="stylesheet">
 {% endblock %}
 
 {% block javascripts %}
