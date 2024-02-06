@@ -8,6 +8,7 @@ h2 {
     margin-top: 0; /* Space above callout titles */
 }
 
+/* Menus (mobile, blog) */
 .treemenu li a {
     font-size: 1rem;
     display: block;
@@ -20,6 +21,10 @@ h2 {
 }
 .treemenu li a:hover {
     color: #A042FF!important;
+}
+.menu .menu-item > a:hover {
+    color: #A042FF;
+    background: #E6CDFF;
 }
 
 /* Fonts */
@@ -55,6 +60,9 @@ html:lang(ko), .lang-ko {
 }
 
 /* Labels */
+.label {
+    background: #E6CDFF;
+}
 .label.label-primary {
   color: #fff;
   background: #A042FF;
