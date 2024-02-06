@@ -1,6 +1,6 @@
 # Alyvix Website
 
-This is the repository of https://www.alyvix.com. It is a **skeleton** in that it's drop-in replacement for the `user/` folder in [Grav](https://getgrav.org). 
+This is the repository of https://alyvix.com. It is a **skeleton** in that it's drop-in replacement for the `user/` folder in [Grav](https://getgrav.org). 
 
 To install your own copy of the Alyvix website, simply follow these steps:
 

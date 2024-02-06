@@ -86,24 +86,14 @@ menu: Plans
         </tr>
         <tr>
             <th style="background-color:white;"></th>
-            <td><a href="./team" class="btn btn-primary btn-lg" target="_blank">Contact us</a></td>
-            <td><a href="./team" class="btn btn-primary btn-lg" target="_blank">Contact us</a></td>
-            <td><a href="./team" class="btn btn-success btn-lg" target="_blank">Contact us</a></td>
-            <td><a href="./team" class="btn btn-success btn-lg" target="_blank">Contact us</a></td>
+            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank">Contact us</a></td>
+            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank">Contact us</a></td>
+            <td><a href="/team" class="btn btn-success btn-lg" target="_blank">Contact us</a></td>
+            <td><a href="/team" class="btn btn-success btn-lg" target="_blank">Contact us</a></td>
         </tr>
     </table>
 </div><br>
 
-<font size="1">1. Alyvix Service is a Windows service installed on a Windows 64-bit OS where English is the recommended language. <i>Microsoft licences are not included in the subscription.</i></font><br>
+<font size="1">1. Alyvix Service is a Windows service installed on a Windows 64-bit OS where English is the recommended language. <i>Microsoft licenses are not included in the subscription.</i></font><br>
 
-<font size="1">2. Windows Terminal Server is required when managing more than 1 Windows session with Alyvix Service. <i>Microsoft licences are not included in the subscription.</i></font>
-
-<!--
-        <tr>
-            <th style="background-color:white;"></th>
-            <td><a href="./service/_subscription_standard/contact_form" class="btn btn-primary btn-lg" target="_blank">Fill in the form</a></td>
-            <td><a href="./service/_subscription_professional/contact_form" class="btn btn-primary btn-lg" target="_blank">Fill in the form</a></td>
-            <td><a href="./service/_subscription_enterprise/contact_form" class="btn btn-success btn-lg" target="_blank">Fill in the form</a></td>
-            <td><a href="./service/_subscription_enterprise_plus/contact_form" class="btn btn-success btn-lg" target="_blank">Fill in the form</a></td>
-        </tr>
--->
+<font size="1">2. Windows Terminal Server is required when managing more than 1 Windows session with Alyvix Service. <i>Microsoft licenses are not included in the subscription.</i></font>

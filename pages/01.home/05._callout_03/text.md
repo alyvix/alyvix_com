@@ -6,6 +6,6 @@ image_align: right
 
 ## **Test Case** Execution
 
-The Alyvix Robot CLI tool runs visual test cases saved as .alyvix files: this command executes end-user bots that reproduce recorded end-user workflows. The resulting performance transaction measures are displayed both in the CLI and saved as human readable output files, with annotated screenshots that provide demonstrable and indisputable proof in case of failure.
+The Alyvix Robot command line tool runs the *.alyvix* visual test cases you've saved: this command executes pre-recorded end-user bots that reproduce your users' workflows directly on their applications. The resulting performance measurements of those interactions are displayed both in the CLI and saved as human readable output files, containing annotated screenshots that provide demonstrable and indisputable proof whenever a test case can't be run to completion.
 
 [Find out more](https://alyvix.com/learn/test_case_execution.html?classes=btn,btn-primary,btn-lg&target=_blank)

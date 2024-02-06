@@ -4,7 +4,7 @@ menu: Service
 class: offset-box
 features:
 	- header: Session Management
-	  text: "Keep multiple Windows Server sessions alive"
+	  text: "Keep multiple Windows Service sessions alive"
 	  icon: fa fa-windows
 	- header: Test Case Scheduling
       text: "Run your test cases continuously and in parallel"
@@ -23,8 +23,8 @@ features:
 	  icon: fa fa-life-ring
 ---
 
-# Let Alyvix Service manage your tests.
-## See the results in your monitoring system.
+# Let Alyvix Service manage your tests
+## See the results in your monitoring system
 
 **Schedule end-user bots** continuously and in parallel, while keeping your Windows RDP sessions up and running.
 
