@@ -1,10 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Guglielmo
+menu: Andrea
 image_align: right
 ---
 
-## **Guglielmo** Fortuni
+## **Andrea** Dick
 *Support Specialist*
 
-<a href="https://it.linkedin.com/in/guglielmo-fortuni-19560614b" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://it.linkedin.com/in/andrea-dick-6a15639b" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>

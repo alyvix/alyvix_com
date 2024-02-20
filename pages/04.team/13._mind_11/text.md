@@ -1,10 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Andrea
+menu: Luca
 image_align: right
 ---
 
-## **Andrea** Dick
+## **Luca** Franzoi
 *Support Specialist*
 
-<a href="https://it.linkedin.com/in/andrea-dick-6a15639b" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://it.linkedin.com/in/luca-franzoi-593164114" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
