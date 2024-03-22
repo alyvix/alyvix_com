@@ -17,14 +17,14 @@ h2 {
 }
 .treemenu li a.active {
     text-decoration: bold;
-    color: #A042FF!important;
+    color: #972EFF!important;
 }
 .treemenu li a:hover {
-    color: #A042FF!important;
+    color: #972EFF!important;
 }
 .menu .menu-item > a:hover {
-    color: #A042FF;
-    background: #E6CDFF;
+    color: #972EFF;
+    background: #AC58FF;
 }
 
 /* Fonts */
@@ -61,15 +61,15 @@ html:lang(ko), .lang-ko {
 
 /* Labels */
 .label {
-    background: #E6CDFF;
+    background: #AC58FF;
 }
 .label.label-primary {
   color: #fff;
-  background: #A042FF;
+  background: #EAD5FF;
 }
 .label.label-secondary {
-    color: #A042FF;
-    background: #E6CDFF;
+    color: #972EFF;
+    background: #EAD5FF;
 }
 
 /* Menus */
@@ -77,17 +77,17 @@ div.mobile-menu div.button_container span {
     background: #888;
 }
 .dropmenu ul li a:hover, .dropmenu ul li a:focus, .dropmenu ul li a.active {
-    color: #A042FF!important;
+    color: #972EFF!important;
 }
 
 /* Links */
 a, a:visited {
-    color: #A042FF;
-    fill: #A042FF;
+    color: #972EFF;
+    fill: #972EFF;
 }
 a:hover {
-    color: #8123DF;
-    fill: #8123DF;
+    color: #7925CC;
+    fill: #7925CC;
 }
 
 /* Big Icons */
@@ -98,10 +98,10 @@ a:hover {
     color: #E8D1FF;  /* Big icons when hovered */
 }
 .modular-features .column .feature-icon h6 {
-    color: #DCB9FF;   /* Words overwriting big icons when normal ;  words below small icons normal */
+    color: #D5ACFF;   /* Words overwriting big icons when normal ;  words below small icons normal */
 }
 .modular-features .column:hover .feature-icon h6 {
-    color: #A042FF;   /* Words overwriting big icons when hovered;  words below small icons when hovered */
+    color: #972EFF;   /* Words overwriting big icons when hovered;  words below small icons when hovered */
 }
 .modular-features .column .feature-content {
     color: #BBB;   /* Words below big icons normal */
@@ -115,7 +115,7 @@ a:hover {
     color: #D8D8D8;  /* The icon itself normal */
 }
 .modular-features.small .column:hover .feature-icon i {
-    color: #A042FF;  /* The icon itself when hovered */
+    color: #972EFF;  /* The icon itself when hovered */
 }
 .modular-features.small .column .feature-icon h6 {
     color: #BBB;   /* Words over big icons normal */
@@ -127,32 +127,32 @@ a:hover {
 /* Buttons */
 .button, .button:visited, .btn, .btn:visited {
     color: #FFF;
-    background: #A042FF;
-    border: 0.05rem solid #A042FF;   
+    background: #972EFF;
+    border: 0.05rem solid #972EFF;   
     border-radius: 4px;
 }
 .button:hover, .button:focus, .btn:hover, .btn:focus {
     color: #FFF;
-    background: #8123DF;
-    border: 0.05rem solid #8123DF;
+    background: #7925CC;
+    border: 0.05rem solid #7925CC;
     border-radius: 4px;
 }
 .btn.btn-success, .btn.btn-success:visited,
 .btn.btn-primary, .btn.btn-primary:visited {
     color: #FFF;
-    background: #A042FF!important;
-    border: 0.05rem solid #A042FF;
+    background: #972EFF!important;
+    border: 0.05rem solid #972EFF;
     border-radius: 4px;
 }
 .btn.btn-success:hover, .btn.btn-success:focus,
 .btn.btn-primary:hover, .btn.btn-primary:focus {
     color: #FFF;
-    background: #8123DF!important;
-    border: 0.05rem solid #8123DF;
+    background: #7925CC!important;
+    border: 0.05rem solid #7925CC;
     border-radius: 4px;
 }
 
 /* Other */
 .search-input:focus {
-    border-color: #8123DF;
+    border-color: #7925CC;
 }
