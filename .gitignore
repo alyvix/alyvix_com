@@ -3,3 +3,7 @@
 
 # received contact forms
 /data/alyvix_service/
+/.htaccess
+/robots.txt
+/security.yaml
+/sitemap.xml

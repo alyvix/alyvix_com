@@ -8,7 +8,7 @@ show_sidebar: true
 
 taxonomy:
     category: blog
-    tag: [Microsoft Dynamics]
+    tag: [Microsoft Dynamics, RDP]
 ---
 
 The Alyvix visual monitoring system helps you proactively find problems that would lower the usability of your IT services by monitoring factors such as availability and responsiveness. By tracking the results over time, it can also detect worsening trends that may not otherwise be noticed. Here we describe two real world examples cases illustrating actual problems that occurred and how they were resolved.

@@ -13,5 +13,5 @@ hero_classes: text-dark overlay-light parallax
 
 Alyvix Service is a visually based **APM tool** for scaling up synthetic monitoring.
 
-[**Get Started** with **Alyvix Service 2.3.0**](../?classes=btn,btn-success,btn-lg#plans)
-[**Latest Features**](https://alyvix.com/learn/service/release_notes/release_notes_23.html?classes=btn,btn-primary,btn-lg&target=_blank)
+[**Get Started** with **Alyvix Service 2.5.1**](../?classes=btn,btn-success,btn-lg#plans)
+[**Latest Features**](https://alyvix.com/learn/service/release_notes/release_notes_25.html?classes=btn,btn-primary,btn-lg&target=_blank)

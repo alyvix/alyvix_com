@@ -16,5 +16,5 @@ Click Clock
 
 Alyvix is an **open source APM tool** for synthetic monitoring
 
-[**Get Started** with **Alyvix 3.5.0**](https://alyvix.com/learn/getting_started.html?classes=btn,btn-success,btn-lg&target=_blank)
-[**Latest Features**](https://alyvix.com/learn/release_notes/release_notes_35.html?classes=btn,btn-primary,btn-lg&target=_blank)
+[**Get Started** with **Alyvix 3.6.0**](https://alyvix.com/learn/getting_started.html?classes=btn,btn-success,btn-lg&target=_blank)
+[**Latest Features**](https://alyvix.com/learn/release_notes/release_notes_36.html?classes=btn,btn-primary,btn-lg&target=_blank)
