@@ -1,8 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Gabriele
+menu: Luca
 image_align: right
 ---
 
-## **Gabriele** Cecco
-*Software Consultant*
+## **Luca** Franzoi
+*Support Specialist*
+
+<a href="https://it.linkedin.com/in/luca-franzoi-593164114" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>

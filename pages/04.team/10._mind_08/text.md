@@ -1,10 +1,10 @@
 ---
 title: Alyvix Mind
-menu: Mirko
+menu: Franco
 image_align: right
 ---
 
-## **Mirko** Alessandrini
+## **Franco** Federico
 *Software Consultant*
 
-<a href="https://it.linkedin.com/in/mirko-alessandrini-09b88082" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://de.linkedin.com/in/%F0%9F%9A%80-franco-federico-b361b49" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>

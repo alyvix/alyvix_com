@@ -1,9 +1,12 @@
 # pycharm folder
 .idea
 
-# received contact forms
-/data/alyvix_service/
+# Private files for security and SEO
 /.htaccess
 /robots.txt
 /security.yaml
 /sitemap.xml
+
+
+# received contact forms
+/data/alyvix_service/
