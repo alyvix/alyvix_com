@@ -1,13 +1,14 @@
 ---
-title: Alyvix Plans
-menu: Plans
+title: Alyvix On Premises Plans
+menu: On Premises
 ---
 
-## Subscription **Features**
+## **On Premises** Subscriptions
 
+<br>
 <div style="overflow-x:auto;">
     <table style="margin-left:auto;margin-right:auto;border-collapse:collapse">
-        <tr>
+        <tr style="color:black;">
             <th style="background-color:white;"></th>
             <th>Standard</a></th>
             <th>Professional</a></th>
@@ -68,14 +69,14 @@ menu: Plans
             <td>1 person</td>
             <td>2 people</td>
             <td>3 people</td>
-            <td>>3 people</td>
+            <td>3 people</td>
         </tr>
         <tr>
             <th style="text-align:right;white-space:nowrap;">Remote training</th>
-            <td style="color:red">&#x2717; extra €/day</td>
-            <td style="color:red">&#x2717; extra €/day</td>
-            <td style="color:red">&#x2717; extra €/day</td>
-            <td style="color:green">&#x2713; included</td>
+            <td>&#x2717; extra €/day</td>
+            <td>&#x2717; extra €/day</td>
+            <td>&#x2717; extra €/day</td>
+            <td>&#x2713; included</td>
         </tr>
         <tr style="background-color:#f8f9fa;">
             <th style="background-color:white;"></th>
@@ -85,11 +86,11 @@ menu: Plans
             <td><b>16.500 €/year</b></td>
         </tr>
         <tr>
-            <th style="background-color:white;"></th>
-            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank">Contact us</a></td>
-            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank">Contact us</a></td>
-            <td><a href="/team" class="btn btn-success btn-lg" target="_blank">Contact us</a></td>
-            <td><a href="/team" class="btn btn-success btn-lg" target="_blank">Contact us</a></td>
+            <td style="background-color:white;"></td>
+            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank"><b>Contact us</b></a></td>
+            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank"><b>Contact us</b></a></td>
+            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank"><b>Contact us</b></a></td>
+            <td><a href="/team" class="btn btn-primary btn-lg" target="_blank"><b>Contact us</b></a></td>
         </tr>
     </table>
 </div><br>

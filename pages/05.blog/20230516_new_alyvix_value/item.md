@@ -19,6 +19,8 @@ Visual monitoring is an exciting complement to traditional monitoring that allow
 
 <!--BLOG ARTICLE-->
 
+## Generic Monitoring
+
 Do you work in IT?  And by that, I mean down there in the nuts and bolts of IT. If you do, I bet you know what **monitoring** is.
 
 It's how we keep our systems up and running *all* the time.  After all, it's not like your average IT company has a small army of people doing nothing but checking 24/7 that all their hardware and software is working.  With your monitoring system you usually add checks and alerts so you can find out when your devices have problems and instantly restart any device that goes down.
